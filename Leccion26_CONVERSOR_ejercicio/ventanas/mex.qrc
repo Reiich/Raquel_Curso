@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="usa">
+    <file>usa.jpg</file>
+  </qresource>
+  <qresource prefix="ru">
+    <file>reino-unido.png</file>
+  </qresource>
+  <qresource prefix="mex">
+    <file>mex.png</file>
+  </qresource>
+</RCC>
