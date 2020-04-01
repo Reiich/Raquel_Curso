@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>diagnosticosDIalog</class>
+ <widget class="QDialog" name="diagnosticosDIalog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Selección Diagnósticos</string>
+  </property>
+  <widget class="QLabel" name="lbl1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diagnósticos disponibles</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lst_disponibles">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Rayos X - 5$</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nivel de Azúcar - 3$</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Prueba de hemoglobina - 2$</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Análisis de Orina - 3.25 $</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lbl2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diagnósticos escogidos</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lst_seleccionados">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
